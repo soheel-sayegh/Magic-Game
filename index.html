@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Magic Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="start">
+        <h3 class="text-white text-center p-3">
+          Look at the cards and keep one in your mind and keep looking at it,
+          and I will know what the card is
+        </h3>
+        <button class="btn">Start</button>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h3 class="text-center p-2 mb-0">
+            <span id="timer">9</span>
+            <p class="find"></p>
+            <button class="btn btn-danger restart mt-1">restart</button>
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="firstCard col-12">
+          <div class="d-flex justify-content-center flex-wrap">
+            <img src="./img/qh.jpg" alt="" />
+            <img src="./img/kz.jpg" alt="" />
+            <img src="./img/jh.jpg" alt="" />
+            <img src="./img/jb.jpg" alt="" />
+            <img src="./img/kd.jpg" alt="" />
+            <img src="./img/qb.jpg" alt="" />
+          </div>
+        </div>
+        <div class="secondCard col-12">
+          <div class="d-flex justify-content-start flex-wrap">
+            <img src="./img/jz.jpg" alt="" />
+            <img src="./img/qd.jpg" alt="" />
+            <img src="./img/kb.jpg" alt="" />
+            <img src="./img/kh.jpg" alt="" />
+            <img src="./img/qz.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./jquery-1.11.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

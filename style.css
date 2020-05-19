@@ -1,0 +1,94 @@
+body {
+  background-color: black;
+}
+.find {
+  display: block;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0px;
+}
+.secondCard {
+  display: none;
+}
+.restart {
+  display: none;
+}
+.start {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.92);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.start h3 {
+  margin-top: 100px;
+  font-weight: bold;
+}
+.start button {
+  margin-left: 45%;
+  width: 100px;
+  background-color: rgb(243, 56, 56);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+#timer {
+  font-weight: bold;
+  color: red;
+  font-size: 50px;
+  border: 2px solid red;
+  border-radius: 50%;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+.d-flex {
+  width: 60%;
+  margin: auto;
+}
+img {
+  height: 240px;
+  width: 30%;
+  margin: 5px;
+}
+@media screen and (max-width: 767px) {
+  img {
+    height: 200px;
+    width: 30%;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .start button {
+    margin-left: 37%;
+    width: 100px;
+    background-color: rgb(243, 56, 56);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  img {
+    height: 150px;
+    width: 28%;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .start button {
+    margin-left: 37%;
+    width: 100px;
+    background-color: rgb(243, 56, 56);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  img {
+    height: 150px;
+    width: 28%;
+    margin: 5px;
+  }
+  .d-flex {
+    width: 100%;
+  }
+}
