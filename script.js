@@ -9,7 +9,7 @@ $ (document).ready (function () {
       document.getElementById ('timer').textContent = counter - 1;
       if (counter > 1) timerId = setTimeout (tick, 1000);
       $ ('.firstCard').fadeOut (9000, function () {
-        $ ('.secondCard').fadeIn (function () {
+        $ ('.secondCard').fadeIn (3000, function () {
           $ ('.find').html ('The card you chose has disappeared');
           $ ('.restart').fadeIn ();
           $ ('.restart').click (function () {
