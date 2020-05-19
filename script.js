@@ -1,6 +1,9 @@
 $ (document).ready (function () {
+  var bgMusic = new Audio ('./img/sound.mp3');
   $ ('.start .btn').click (function () {
     $ ('.start').hide ();
+
+    bgMusic.play ();
     let timerId = setTimeout (function tick () {
       let counter = parseInt (document.getElementById ('timer').textContent);
       document.getElementById ('timer').textContent = counter - 1;
